@@ -1,0 +1,137 @@
+/* Style global */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+}
+
+/* Le conteneur principal occupe tout l'espace restant */
+#content {
+    flex: 1;
+}
+
+/* Barre de navigation */
+nav {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Soulignement de l'élément actif */
+nav ul li a.active {
+    border-bottom: 2px solid white;
+}
+
+/* Section de présentation */
+.about-section {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-section h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Section des compétences */
+.competences-section {
+    padding: 50px;
+    background-color: #e0e0e0;
+}
+
+.competences-section h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.competence {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.competence h3 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.competence p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Footer collé en bas */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+/* Section développement d'applications */
+.section {
+    padding: 50px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+}
+.img-comp  img{
+	width: 75%;
+	height: 75%;
+	border-image: 1px solid black;
+}
+.container {
+	display: flex;
+	align-items: center;
+	flex-direction: column
+}
